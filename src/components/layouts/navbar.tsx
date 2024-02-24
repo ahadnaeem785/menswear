@@ -18,10 +18,10 @@ export default function Navbar() {
                         <li>
                             <Link href={"#"}>Men</Link >
                             <ul className="p-2">
-                                <li><Link href={"#"}>Pants</Link ></li>
-                                <li><Link href={"#"}>Shirts</Link ></li>
-                                <li><Link href={"#"}>Shoes</Link ></li>
-                                <li><Link href={"#"}>Accessories</Link ></li>
+                                <li><Link href={"/pants"}>Pants</Link ></li>
+                                <li><Link href={"shirts"}>Shirts</Link ></li>
+                                <li><Link href={"shoes"}>Shoes</Link ></li>
+                                <li><Link href={"hoodies"}>Hoodies</Link ></li>
                             </ul>
                         </li>
                         <li><Link href={"/about"}>About</Link ></li>
