@@ -31,7 +31,7 @@ export default function Navbar() {
                 <a className="font-bold uppercase text-xl hidden lg:block">Mens <span className='text-rose-700'>Wear</span> </a>
             </div>
             <div className="navbar-center ">
-                <a className=" font-bold uppercase text-xl block lg:hidden ">Mens <span className='text-rose-700'> Wear</span> </a>
+                <a className=" font-bold uppercase text-xl block lg:hidden ">Mens Wear </a>
                 <div className='hidden lg:flex border-none outline-none'>
                     <NavLinks />
                 </div>
