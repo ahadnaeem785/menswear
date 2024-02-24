@@ -16,12 +16,12 @@ export default function Navbar() {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-myBlakeHead font-medium">
                         <li><Link href={"/"}>Home</Link ></li>
                         <li>
-                            <Link href={"#"}>Men</Link >
+                            <h4 >Men</h4>
                             <ul className="p-2">
-                                <li><Link href={"#"}>Pants</Link ></li>
-                                <li><Link href={"#"}>Shirts</Link ></li>
-                                <li><Link href={"#"}>Shoes</Link ></li>
-                                <li><Link href={"#"}>Accessories</Link ></li>
+                                <li><Link href={"/pants"}>Pants</Link ></li>
+                                <li><Link href={"/shirts"}>Shirts</Link ></li>
+                                <li><Link href={"/shoes"}>Shoes</Link ></li>
+                                <li><Link href={"/hoodie"}>Hoodies</Link ></li>
                             </ul>
                         </li>
                         <li><Link href={"/about"}>About</Link ></li>
@@ -31,7 +31,7 @@ export default function Navbar() {
                 <a className="font-bold uppercase text-xl hidden lg:block">Mens <span className='text-rose-700'>Wear</span></a>
             </div>
             <div className="navbar-center ">
-                <a className=" font-bold uppercase text-xl block lg:hidden ">Mens Wear</a>
+                <a className=" font-bold uppercase text-xl block lg:hidden ">Mens <span className='text-rose-700'>Wear</span></a>
                 <div className='hidden lg:flex border-none outline-none'>
                     <NavLinks />
                 </div>
