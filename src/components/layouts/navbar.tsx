@@ -16,12 +16,12 @@ export default function Navbar() {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-myBlakeHead font-medium">
                         <li><Link href={"/"}>Home</Link ></li>
                         <li>
-                            <Link href={"#"}>Men</Link >
+                            <h4>Men</h4>
                             <ul className="p-2">
                                 <li><Link href={"/pants"}>Pants</Link ></li>
-                                <li><Link href={"shirts"}>Shirts</Link ></li>
-                                <li><Link href={"shoes"}>Shoes</Link ></li>
-                                <li><Link href={"hoodies"}>Hoodies</Link ></li>
+                                <li><Link href={"/shirts"}>Shirts</Link ></li>
+                                <li><Link href={"/shoes"}>Shoes</Link ></li>
+                                <li><Link href={"/hoodies"}>Hoodies</Link ></li>
                             </ul>
                         </li>
                         <li><Link href={"/about"}>About</Link ></li>
