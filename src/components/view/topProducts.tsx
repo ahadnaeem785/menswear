@@ -7,7 +7,7 @@ export default function TopProducts() {
   const product = useAppSelector((state)=>state.product);
   const productsChunks = product.slice(0,10)
   return (
-    <div className='mt-[100px]'>
+    <div className='mt-[100px]' id="shop">
       {/* heading */}
       <div className='text-center'>
         <h2 className="scroll-m-20 text-myBlakeHead pb-2 text-2xl font-bold tracking-tight first:mt-0">SHOP BY BRAND</h2>
