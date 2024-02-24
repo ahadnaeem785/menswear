@@ -16,11 +16,7 @@ export default function Navbar() {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-myBlakeHead font-medium">
                         <li><Link href={"/"}>Home</Link ></li>
                         <li>
-<<<<<<< HEAD
                             <h4 >Men</h4>
-=======
-                            <h4>Men</h4>
->>>>>>> a6741955c4b8c6cd8d1b5c3fcc5f41899c218871
                             <ul className="p-2">
                                 <li><Link href={"/pants"}>Pants</Link ></li>
                                 <li><Link href={"/shirts"}>Shirts</Link ></li>
