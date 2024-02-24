@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Hero() {
     return (
@@ -25,7 +26,7 @@ export default function Hero() {
                     </p>
 
                     <div className="mt-5 gap-4 sm:mx-auto  ">
-                        <button className="outline max-w-[8rem] outline-offset-1 outline-1 outline-gray-400 hover:outline-rose-700 hover:scale-95 hover:text-rose-600 w-full rounded-xl bg-myBlakeHead px-7 py-2 text-sm font-medium text-white shadow hover:bg-myBlakeHead ">Shop Now</button>
+                        <Link href={"#shop"}></Link><button className="outline max-w-[8rem] outline-offset-1 outline-1 outline-gray-400 hover:outline-rose-700 hover:scale-95 hover:text-rose-600 w-full rounded-xl bg-myBlakeHead px-7 py-2 text-sm font-medium text-white shadow hover:bg-myBlakeHead ">Shop Now</button></div>Link>
                     </div>
                 </div>
             </div>
